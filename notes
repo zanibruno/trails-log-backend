@@ -1,0 +1,11 @@
+Location 
+has_many :trails
+:postcode - string, :name -string, 
+
+
+
+
+
+Trail
+belongs_to :location
+:name: - string, :length - float, :level - integer, :description - string
